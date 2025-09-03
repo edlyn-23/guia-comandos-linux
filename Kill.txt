@@ -1,0 +1,23 @@
+Comando: Kill 
+
+
+
+ Es un comando integrado que se utiliza para finalizar procesos manualmente. Este comando envía una señal a un proceso que lo termina.
+
+Las señales se pueden especificar en 3 formas 
+-Por numero 
+-Con prefijo SIG 
+- Sin prefijo SIG 
+
+Ejemplos:
+
+kill -l > muestra las señales disponibles 
+
+Specificando la señal: 
+
+
+-Por numero: kill -9 pid
+-Con prefijo SIG : kill -SIGHUP pid
+- Sin prefijo SIG: kill -HUP pid
+
+
